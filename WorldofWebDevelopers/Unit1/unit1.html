@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> World of Web developers </title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../../shared/style.css">
+</head>
+<body>
+    <header>
+        <div class="topnav">
+  
+        <a href="../index.html"><img style="margin: 2px" alt="Logo" src="../../shared/img/mylogo.png" width="80" height="80" align="left"/></a>
+            <h1 style="align-self: center">World of Web Developers</h1>
+  <p>
+      <a class="menu" href="../Unit3/quiz.html">Quiz 3</a>
+      <a class="menu" href="../Unit3/unit3.html">Unit 3</a>
+      <a class="menu" href="../Unit2/quiz.html">Quiz 2</a>
+      <a class="menu" href="../Unit2/unit2.html">Unit 2</a>
+      <a class="menu" href="../Unit1/quiz.html">Quiz 1</a>
+      <a class="menu" href="../Unit1/unit1.html">Unit 1</a>
+ </p> 
+</div>   
+    </header>
+    
+
+ 
+   <div><h3>Introduction</h3>
+       In this unit you would be covering the following topics.
+    <ol>
+        <li><a href="#web">The Web</a></li>
+        <li><a href="#html5">HTML5</a></li>
+        <li><a href="#css">CSS</a></li>
+     </ol>
+    </div>
+    <br>
+    
+<div>
+    <h3 id="web"> The Web</h3>
+    <p> Many of the most influential and big businesses in the world today are tech businesses.Moore's Law is a trend that states: Every year or two, the capacities of computers have doubled inexpensively.Computers and the Internet are being used in industry, research, health care, social good, communication, entertainment and more. In this section we would just be giving you some useful facts, terms, vocabulary and abbrievations related to the web (the internet):
+    </p>
+    <ul>
+        <li>A bit is the smallest data item in a computer; it can have the value of 0 or 1.
+        </li>
+        <li>The internet was made posibble by a gloabal convergence of computing and communication technologies.</li>
+        <li>The Advanced Research Projects Agency Network (ARPANET) was the basis for the internet.</li>
+        <li>One of the primary goals for ARPANET was to allow multiple users to send and receive information simultaneously over the same communications paths </li>
+        <li>Packet switching is a technique in which digital data is sent in small bundles called packets, which contain address,error-control and the sequenceing information . </li>
+        <li>The set of protocol(rules) for the internet and the APRANET is called TCP/IP.</li>
+        <li>HTTPS means Hypertext Transfer Protocol Secure </li>
+        <li> SSL means Secure Sockets Layer </li>
+        <li>TLS means Transport Layer Security </li>
+        <li>URI means Uniform Resource Identifier</li>
+        <li>The two most common HTTP request types (also known as request methods) are get and post.</li>
+        <li>A get request retrieves  information from a server.</li>
+        <li>A post request typically posts (or sends) data to a server.</li>
+        <li>Browsers often cache (save on disk) recently viewed web pages for quick reloading.</li>
+    </ul>
+    
+    </div>
+<div>
+    <h3 id="html5">HTML5</h3>
+    <p> HTML5 stands for Hyper-text Markup Language 5. It is a markup language that specifies the structure and content of documents that are displayed in web browsers. Computers called webservers store HTML5 documents. Then clients can request these documents from the web browsers. In this part of the tutorial I would be teaching the different attributes and features of HTML5. Below are the topics we would be covering.</p>
+    <note> Double click each of the buttons below learn about each of these topics</note>
+    <br>
+    <button  onclick="buttontoggle('firstweb')">Your first Web Page</button>
+    <div class="hidden" id="firstweb"><p> <strong>Document  Type Declaration :</strong> When ever you are writing and HTML file you always need to start with this statement, <b> &lt;!DOCTYPE&gt;</b>, this helps browsers recognize that it is a html document and render the page according to HTML and CSS specifications.</p>
+    <p><br style="”height:1.0em”"></p>
+    <p><strong> Comments:</strong> In HTML5 comments start with &lt;!&minus;&minus; and end with &minus;&minus;&gt;.   </p>
+    <p><br style="”height:1.0em”"></p>
+    <p><strong>Start and End Tags:</strong> In HTML5 delimits most elements with a start and end tag. A <b> start tag </b> consists of the element name in angle brackets  and the <b> end tag </b> consists of the element name  preceded by a forward slash in angle brackets. Below I have shown a few examples of tags. </p>
+        <table border= "1"><thead><tr> <th>Start tag </th> <th> Content</th><th> End tag </th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr><td>
+                    &lt;html&gt;
+                    </td>
+                    
+                    <td>
+                        The whole contents of the html file except the first line which say,&lt;!DOCTYPE&gt;.
+                    </td>
+                    <td>&lt;&frasl;html&gt;</td>
+                </tr>
+                <tr><td>
+                    &lt;p&gt;
+                    </td>
+                    
+                    <td>
+                        contents of a paragraph
+                    </td>
+                    <td>&lt;&frasl;p&gt;</td>
+                </tr>
+                <tr><td>
+                    &lt;b&gt;
+                    </td>
+                    
+                    <td>
+                        A line of text which the would be displayed in bold on the webpage.
+                    </td>
+                    <td>&lt;&frasl;b&gt;</td>
+                </tr>
+                <tr><td>
+                    &lt;h1&gt;
+                    </td>
+                    
+                    <td>
+                        Heading 1 contents : the biggest size for html headings
+                    </td>
+                    <td>&lt;&frasl;h1&gt;</td>
+                </tr>
+                <tr><td>
+                    &lt;h6&gt;
+                    </td>
+                    
+                    <td>
+                        Heading 6 contents : the smallest size for html headings
+                    </td>
+                    <td>&lt;&frasl;h6&gt;</td>
+                </tr>
+                <tr><td>
+                    &lt;head&gt;
+                    </td>
+                    
+                    <td>
+                       Information about the HTML5 document, such as the character set (utf-8)
+                    </td>
+                    <td>&lt;&frasl;head&gt;</td>
+                </tr>
+                <tr><td>
+                    &lt;body&gt;
+                    </td>
+                    
+                    <td>
+                       The pages content
+                    </td>
+                    <td>&lt;&frasl;body&gt;</td>
+                </tr>
+                <tr><td>
+                    &lt;title&gt;
+                    </td>
+                    
+                    <td>
+                        The title of the page which is nested in the head tag
+                    </td>
+                    <td>&lt;&frasl;title&gt;</td>
+                </tr>
+                <tr><td>
+                    &lt;pre&gt;
+                    </td>
+                    
+                    <td>
+                        Text in a pre element is displayed in a fixed-width font, and it preserves both      spaces and line breaks
+                    </td>
+                    <td>&lt;&frasl;pre&gt;</td>
+                </tr>
+                <tr><td>
+                    &lt;br&gt;
+                    </td>
+                    
+                    <td>
+                       Inserts a new line break or carriage return. Closing tag is not required and is mostly not used
+                    </td>
+                    <td>&lt;&frasl;br&gt;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><br style="”height:1.0em”"></p>
+        <strong>Write your Very first  HTML file</strong><br>
+        Now it is time to try writing an html file. Write an html file that  with a title "HTML" prints "Hello World" using headers 1 to 6, a paragraph tag, in bold and in italics,in the code segment below. Each of the "Hello World"'s should start on a new line.
+        <br>
+        <textarea id="firstcode"  placeholder="Write code here...." cols="60" rows='60'></textarea><br> 
+        <button class="submit" onclick="thehtml()">Submit</button>
+         <script>
+        function thehtml() {
+         var x = document.getElementById("firstcode").value ;
+         document.writeln(x + "<br><a href='unit1.html'> Back to World of Web developers</a>");
+        }
+        </script>
+        <button class="submit" onclick="buttontoggle('answer')">SHOW Answer</button>
+        <div id="answer" class="hidden"><pre>
+         &lt;html&gt;<br>
+            &lt;head&gt;<br>
+                &lt;title&gt;HTML&lt;/title&gt;<br>
+            &lt;/head&gt;<br>
+            &lt;body&gt;<br>
+                &lt;h1&gt;Hello World !&lt;/h1&gt;<br>
+                &lt;h2&gt;Hello World !&lt;/h2&gt;<br>
+                &lt;h3&gt;Hello World !&lt;/h3&gt;<br>
+                &lt;h4&gt;Hello World !&lt;/h4&gt;<br>
+                &lt;h5&gt;Hello World !&lt;/h5&gt;<br>
+                &lt;h6&gt;Hello World !&lt;/h6&gt;<br>
+                &lt;p&gt;Hello World !&lt;/p&gt;<br>
+                &lt;b&gt;Hello World !&lt;/b&gt;&lt;br&gt;<br>
+                &lt;i&gt;Hello World !&lt;/i&gt;<br>
+            &lt;/body&gt;<br>
+         &lt;/html&gt;<br>
+        </pre>
+        
+        </div>
+       
+    </div>
+     
+    <button onclick="buttontoggle('link')">Linkings</button>
+    <div class="hidden" id="link">
+        <p><strong>Linking to another web page:</strong>HTML defines links with an &lt;a&gt; tag.Eg. &lt;a href=&#34;url&#34;&gt;<i>link text</i>&lt;/a&gt;</p>
+    
+        <p><Strong>Local links on the same webpage:</Strong>To create a link (a bookmark )on the same webpage so that users can jump to specific parts of the Web page. You must first create the bookmark and then add a link to it. When the link is clicked the page would scroll to the location of the book mark.<br> 1.First create a book mark with the id attribute.&lt;h6 id&#60;&#34;c1&#34;&gt; Eg.Chapter 1&lt;/h6&gt;.<br> 2. Next add a link to the book mark from within the samepage. Eg. &lt;a href=&#34;#c1&#34;&gt;Jump to Chapter 1&lt;/a&gt;</p>
+        <p><strong>Link to a book mark on another page:</strong> You could also link to a book mark on another page by putting the page followed by the bookmark id  with no spaces in the href. Eg.&lt;a href=&#34;unit1.html#c1&#34;&gt;Jump to Chapter 1&lt;/a&gt;</p>
+    
+    <p><Strong>Local links on the same website:</Strong>To create a link to another page on the same website you could follow the same format for linking to another webpage however for the url you would not need to include https//www....  Eg. &lt;a href=&#34;unit1.html&#34;&gt;Go to Unit 1&lt;/a&gt;</p> 
+    
+    <iframe src="samples/samplelinks.html" height="200" width="300"></iframe>
+    <iframe src="samples/samplecode.html" height="200" width="300"></iframe>
+    </div>
+    <button onclick="buttontoggle('images')">Images</button>
+    <div class="hidden" id="images"><p><strong>Embedding an image in html page:</strong> To embed an image in an html page you need to use the <b>img element</b> with the <b>src(source) attribute like this  &lt;img scr="img1.png" alt="Image 1"> &gt; The attribute alt , is an alternative text that appears if the image is not found by th web browers. The most popular image formats used by the web developers today are PNG and JPEG. </b> </p> 
+    <p><strong>Img an example of a void element in HTML5:</strong> Void elements are HTML5 elements that contains only attributes and do not mark up text, the <b>img</b> element is an example of a void element.</p>
+    <p><strong>Sizing your image:</strong>To specify the size of your image use the attributes height and width </p>
+    <p><strong>Using your image as Hyperlinks:</strong>To use an image as a link, put the &lt;img&gt; tag inside the &lt;a&gt;tag </p>
+    <h6> Below is an example of a an this website's logo embedded in a this webpage and linking to the website where the logo was made.</h6>
+    <p><a href="https://www.freelogodesign.org/">
+    <img src="../../shared/img/mylogo.png" alt="Website Logo" width="250" height="250"  >
+    </a>
+    <img src="../../shared/img/imagecode.png" alt="Website Logo" width="400" height="250" style="padding-left: 20px">    
+    </div>
+    <button onclick="buttontoggle('lists')">Lists</button>
+    <div class="hidden" id="lists"> There are two types of lists in html5:
+        <ol>
+            <li>Ordered list: These show up on the webpage as numbers. The ordered list element is <b>&lt;ol&gt;&lt;/ol&gt;</b></li>
+            <li>Unordered list:These show up on the webpage as bullet points. The unordered list element is <b>&lt;ul&gt;&lt;/ul&gt;</b></li>
+        </ol>
+        <p> Lists can also be nested in html5. Below is an exaple of a nested list and the code for it.</p>
+     <img src="../../shared/img/link.png" alt="Link code" width="500" height="250" > 
+    </div>
+    
+    
+    
+    <button onclick="buttontoggle('forms')">Forms</button>
+    <div class="hidden" id="forms">Below is form and a the correponding code for the form.
+        <iframe src="samples/form.html" height="250" width="450"></iframe>
+        <img src="../../shared/img/form.png" alt="form code" width="300" height="250" > 
+        <p>Above I have shown and example of an example of an HTML5 form and its corresponding code. HTML5 comes with a lot of form Attributes. For example the <b>color and date input type </b> in form now come with add on's that make sure the user selects the correct date format and only known colour. <b>The password input type </b>automatically encrypts the password. <b>The email  input type</b> makes sure that the email has the standard ie. name@domain.something <b> Textrea </b> which was used for the bio is used for big inputs . I gives you the option of expanding/reducing your input bar to your desired size. </p> We have a many other HTML5 input types such as range , search, telephone, url and many others which you can reasearch on in your own time. 
+    </div>
+    
+    </div>
+    
+    
+  
+<div>
+    <h3 id="css"> CSS </h3>
+    <p>CSS stands for Cascading Style Sheets. It is a language for decribing the Style of Webpages, including colors, fonts, adaption to different screen types and many other things.CSS3 is a modernized version of CSS. CSS code can be validated using jigsaw.w3.org/css-validator/ .
+    </p>
+    <p> There are different ways which a web developer can embedded the CSS code into a webpage.
+    </p>
+    <note> Double click each of the buttons below learn about each of these topics</note>
+    <br>
+    <button onclick="buttontoggle('inline')">Inline Style Sheets</button>
+    <div class="hidden" id="inline"> 
+        Inline Style Sheets are one of the ways a web developer can embedded CSS into a webpage. This is mostly used when the webdeveloper is satisfied with the overall style of the webpage but would like to alter the style of a paticular part of the page. 
+        <p style="color: aliceblue; background-color: black">For example the text colour assigned to this page is the paragragh tag on this page is black  and the background color for this page is voilet. However I decide to change the style of this paragraph.Look below to see how this was changed useing the inline style sheet.</p>
+         <img src="../../shared/img/inlinestyle.png" alt="style code" width="750" height="40" >
+    </div>
+    <button onclick="buttontoggle('embedded')">Embedded Style Sheets</button>
+    <div class="hidden" id="embedded">
+        Another way of embedding CSS in a webpage is by embedding it in the head section of the html5 document. This method is mostly used when you have a general theme for your website but you want to alter a  specific page a bit.   
+    </div>
+    <button onclick="buttontoggle('positioning')">Positioning Elements</button>
+    <div class="hidden" id="positioning">
+        Usaully elements in html5 are positioned in the order that they appear in the html5 document . However positioning allows us to specificy the exact place we want the element to be displayed.<br>
+        Here is an example of absolute positioning taken from the Internet and World Wide Web How To Program:
+        <img src="../../shared/img/absolutepositioning.png" />
+        
+    </div>
+    <button onclick="buttontoggle('backgrounds')">Backgrounds</button>
+    <div class="hidden" id="backgrounds">
+        CSS background properties are used to determine the background of an element, such as the general color of the page or the baground of a div. Below are some common CSS background properties :
+        <ul><li>background-color : Its specifies the background color of an element.</li>
+            <li>background-image : It specifies an image to use as the background of element.</li>
+            <li>background-repeat :It specifies how you want and image background to be repeated, usually <note>repeat-x, repeat-y or n-repeat</note></li>
+            <li>background-attachment : Specifies whether the background image should scroll or be fixed</li>
+            <li>background-position: Specifies the starting point of the background image</li><br>      
+        </ul>
+        When using the shorthand property the order of the property values is: <br>
+        <li>background-color </li>
+        <li>background-image</li> 
+        <li>background-repeat</li> 
+        <li>background-attachment</li> 
+        <li>background-position</li>
+        It does not matter if one of the property values is missing, as long as the other ones are in this order. 
+        <br><br>
+    </div>  
+    <button onclick="buttontoggle('colors')">Colors</button>
+    <div class="hidden" id="colors">
+        Color names and hexadecimal codes may be used as the color property value. You can also find a complete list of HTML standard and extended colors at <a style= "color:blue" href="www.w3.org/TR/css3-color/">www.w3.org/TR/css3-color/</a>  or <a style= "color:blue" href="https://www.w3schools.com/colors/colors_picker.asp">https://www.w3schools.com/colors/colors_picker.asp</a><br><br>
+    </div>
+    </div>
+    
+<button class="quiz" onclick="window.location.href='quiz.html'"> GO TO QUIZ1</button>
+    
+</body>
+<script> 
+function buttontoggle(divid) {
+  var x = document.getElementById(divid);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} </script>    
+
+   
+
+
+      
+
+
+
+
+</html>

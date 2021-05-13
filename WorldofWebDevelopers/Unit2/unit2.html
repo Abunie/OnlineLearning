@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> World of Web developers </title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../../shared/style.css">
+</head>
+<body>
+    <header>
+        <div class="topnav">
+  
+       <a href="../index.html"><img style="margin: 2px" alt="Logo" src="../../shared/img/mylogo.png" width="80" height="80" align="left"/></a>
+            <h1 style="align-self: center">World of Web Developers</h1>
+  <p>
+      <a class="menu" href="../Unit3/quiz.html">Quiz 3</a>
+      <a class="menu" href="../Unit3/unit3.html">Unit 3</a>
+      <a class="menu" href="../Unit2/quiz.html">Quiz 2</a>
+      <a class="menu" href="../Unit2/unit2.html">Unit 2</a>
+      <a class="menu" href="../Unit1/quiz.html">Quiz 1</a>
+      <a class="menu" href="../Unit1/unit1.html">Unit 1</a>
+</p> 
+</div>   
+    </header>
+    
+   <div><h3>Introduction</h3>
+       In this unit you would be learning the Basics of JavaScript. The lessons would be broken down to these 4 topics.
+    <ol>
+        <li><a href="#intro">Introduction to Scripting</a></li>
+        <li><a href="#control">Control Statements in JavaScript</a></li>
+        <li><a href="#functions">Functions in JavaScript</a></li>
+        <li><a href="#arrays">Arrays and Objects</a></li>
+     </ol>
+    </div>
+    <br>
+    
+    <div>
+     <h3 id="intro"> Introduction to Scripting</h3>
+        <p> JavaScript is a scripting language that is used to enhance the functionality and appearance of web pages. Let's begin this unit by letting you type your first Java Script lines of code.Fill in the code below with any string you would like JavaScript to print and press the run button to run your code.</p>
+        <div><pre style="background-color: black; color:white">
+        &lt;html&gt;<br>
+            &lt;head&gt;<br>
+                &lt;title&gt;My First JavaScript codeL&lt;/title&gt;<br>
+                 &lt;script type = "text/javascript"&gt;
+                 document.writeln(<input id="javascript1" placeholder="e.g <h1>Hello World</h1>">)
+            &lt;/head&gt;<br>
+            &lt;body&gt;<br>      
+            &lt;/body&gt;<br>
+         &lt;/html&gt;<br>
+        <button class="submit" onclick="thehtml()">Run</button>
+         <script>
+        function thehtml() {
+         var x = document.getElementById("javascript1").value ;
+         
+         document.writeln(x +"<br><a href='unit2.html'> Back to World of Web developers</a>" );
+         
+        
+//          document.getElementById("demo").innerHTML = txt;
+        }
+        </script>
+        </pre>
+            
+        Cool!! I believe you have been able to run your code. Please note that in actually Javascript code when you run it it would only show what you typed. I added the back to world developer's link just to help you navigate the site well. Here are some key things to note in JavaScript.
+        </div>
+        <ul>
+            <li>The script tag indicates to the browser that the text which follows is javascript.</li>
+            <li>Every satatement in JavaScript should end with a semi-colon.</li>
+            <li>JavaScript is case-sensitive.</li>
+            <li>Browsers window object uses method alert to display an alert dialog. E.g window.alert("Some text"). The window.alert() method can be written without the window prefix</li>
+            <li> The keyword <note>var</note> in Javascript is used to declare names of variables.</li>
+            <li>A variable name can consist of letters, digits, underscores and the dollar sign.</li>
+            <li> A variable name cannot begin with a digit and cannot be a JavaScript resrved word.</li>
+            <li>ParseInt is a function that converts a string to an interger</li>
+            <li> Variable names correspond to locations in the computer's memory</li>
+            <li> JavaScript does not require variables to have a tyoe before they can be used in a script.</li>
+        </ul>
+        
+    </div>
+    <br>
+    
+    <div>
+        <h3 id="control">Control Statements in JavaScript</h3>
+        <p>All scripts can be written in term of three control Statements:</p>
+        <ol>
+          <li>sequence</li>
+          <li>selection</li>
+          <li>repition</li>
+        </ol>
+       
+        <h4>Sequencce Statement</h4>
+        <p>A sequence is a set of instructions executed one after the other</p>
+       
+        <h4>Selection Structures</h4>
+        <p>A selection statement is a conditional statement. Javascript has 3 selection structures:</p>
+        <ul>
+            <li>if statement (single selection)</li>
+            <li>if..else statement (double selection)</li>
+            <li>switch statement (multiple selection)</li>
+        </ul>
+       
+        <h4>Iteration/Repition Statements</h4>
+        <p>This allows us to repeat a certain statement for a certain number of times whilst the condition is true. Javascript has 4 repition statements:</p>
+        <ul>
+            <li>while</li>
+            <li>do...while</li>
+            <li>for</li>
+            <li>for...in</li>
+        </ul>
+       
+        <h4>Keywords</h4>
+        <p>Javascript just like most other programming languages come with reserved keywords, some popular keywords in Javascript include, break, catch, else, try, true, new,and so much more . To find More JavaScript keywords visit this website : <a href="https://www.w3schools.com/js/js_reserved.asp"> https://www.w3schools.com/js/js_reserved.asp</a> </p>
+       
+    </div>
+    <div><h3 id="functions">Functions in JavaScript</h3>
+        <p>In any program you are writing to maintain it , it is best written in small, simple pieces this helps you solve each chunk of the algorithm easily. This is where functions are useful in programming, you can define functions that perform specific task and use them at many points in a script.</p>
+        <p>Functions in javaScript are defined like this:</p>
+        <codeblock><pre style="background-color: black">
+        <br>
+        function function-name(parameter-list)<br>
+        {<br>
+              declarations and statements
+        }<br>
+        </pre></codeblock>
+        
+        <p>They are called like this:</p>
+        <codeblock><pre style="background-color: black">
+        <br>
+        function-name(parameter-list);<br>
+        </pre></codeblock>
+        <p>Methods are called the same way as functions but require the name of the object to which the method belongs and a dot preceding the method name.</p>
+        <p> There are several reasons for modularizing a program with functions some of which are:</p>
+        <ul>
+            <li>Divide-and-conquer aproach makes program development more manageable.</li>
+            <li>Software reusability</li>
+            <li>Avoid repeating code in a programme</li>
+        </ul>
+        <p>JavaScript also comes with a lot of Global functions. Here are some of the popular ones.</p>
+        <ul>
+            <li>parseInt(): Parses an string and returns an interger</li>
+            <li>parseFloat(): Parses an string and returns a floating point number</li>
+            <li>Number():Converts an object's value to a number</li>
+            <li>String(): Converts an object's value to a string</li>
+            <li>isFinite(): Determines whether a value is finite, legal number</li>
+            <li>isNAN(): Determines whether a value is an illegal number</li>
+            <li>decodeURI():Decodes a URI </li>
+            <li>decodeURIComponent():Decodes a URI component </li>
+            <li>encodeURI():Encodes a URI </li>
+            <li>decodeURIComponent ():Encodes a URI component </li>   
+        </ul>
+    </div>
+    <br>
+    <div>
+       <h3 id="arrays">Arrays, Objects and Document Object Model(DOM) in JavaScript</h3> 
+       <h4><u>Arrays</u></h4>
+        <p>Arrays are data structures consisting of related items. They can also be defined as a group of memory locations of the same name and most times the same type. Arrays in javaScript are dynamic entities as they can change size after they are created. The first element of a JavaScript array usually takes index zero, the second takes index one and so forth. In JavaScript we use the new operator to create an array and to specify the number of elements in an array. JavaScript's for....in Repitition statement enable a script to perform a task for each element in an array</p><br>
+        <note>Did you know that Javascript does not check the number of arguemnets or types of arguements passed to a function ? It's possible to pass any number of values to a function</note>
+        <p> The array object in Javascript has a built-in sort method : Sorts the array either in alphabetical order or numeric order</p>
+        <p> The array object in Javascript has a built-in indexOf method : Searches for the first occurence of the specified key value</p>
+        <p> The array object in Javascript has a built-in lastIndexOf method : Searching for the last occurence of the specifies key value</p>
+        <p> Arrays in JavaScript can also be two dimensional, to call an element in a two dimensional array you usaully have the specify the two indices. By convention, the first identifies the element's row and the second identifies the element's column.</p>
+        
+        <h4><u>Objects</u></h4>
+        <p><b>Math Object</b> methods enable you to conveniently perform many common mathematical calculations.  An object's methods are called by writing the name of the object followed by a dot operator (.) an the name of the method Some examples of math methods are listed below</p>
+        <table border="1">
+        <thead><tr>
+            <th>Method</th>
+            <th>Description</th> 
+          </tr>
+        </thead>
+        <tbody><tr>
+            <td>abs(x)</td>
+            <td>Absolute value of x</td>
+          </tr>
+          <tr>
+            <td>ceil(x)</td>
+            <td>Rounds(x) to the smallest interger not less than x</td>
+          </tr>
+          <tr>
+            <td>exp(x)</td>
+            <td>exponential method e^x</td>
+          </tr>
+         <tr>
+            <td>floor(x)</td>
+            <td>Rounds x to the largest interger not greater than x</td>
+          </tr>
+         <tr>
+            <td>log(x)</td>
+            <td>Natural logarithm of x(base <i>e</i>)</td>
+          </tr>
+         <tr>
+            <td>max(x,y)</td>
+            <td>Larger value of x and y </td>
+          </tr>
+         <tr>
+            <td>min(x,y)</td>
+            <td>Smaller value of x and y </td>
+          </tr>
+            </tbody>
+        </table>   
+        <p><b>String Objects:</b> Characters are the building blocks of JavaScript programs. A string is a series of characters grouped together meaningfully. Javascript supports Unicode which represents a large portion of the world's languages. The table below shows a couple of String methods in JavaScript.</p>
+         <table border="1">
+        <thead><tr>
+            <th>Method</th>
+            <th>Description</th> 
+          </tr>
+        </thead>
+        <tbody><tr>
+            <td>charAt(index)</td>
+            <td>Returns a string contained at a specific index.</td>
+          </tr>
+          <tr>
+            <td>concat(string )</td>
+            <td>Concatenates its arguement to the end of the string on which the method is invoked</td>
+          </tr>
+          <tr>
+            <td>replace(searchString, replaceString)</td>
+            <td>searches for searchString and replaces the first occurence with replaceString.</td>
+          </tr>
+         <tr>
+            <td>toUpperCase()</td>
+            <td>Returns a string in which all letters are uppercase</td>
+          </tr>
+         <tr>
+         
+          </tr>
+            </tbody>
+        </table>
+        
+        <p><b>Date Object</b> provides methods for date and time manipulations. The Date constructor with no agruements initializes the Date Object of with the local computer's current date and time. A new date constructor can be defined by passing the number of millisecond since midnight, January 1st 1970 or  supplying the arguements to year, month, date, hours, minutes, seconds, milliseconds to the Date constructor. The table below shows some date methods.</p>
+        <table border="1">
+        <thead><tr>
+            <th>Method</th>
+            <th>Description</th> 
+          </tr>
+        </thead>
+        <tbody><tr>
+            <td>getDate()</td>
+            <td>returns a number representing the day of the month in local time or UTC time</td>
+          </tr>
+          <tr>
+            <td>getMonth()</td>
+            <td>Returns a number from 0(January) to 11(December) representing the month of the year</td>
+          </tr>
+          <tr>
+            <td>toString()</td>
+            <td>Returns a string represntation of the of the date and time in a form specific to the local computer</td>
+          </tr>
+         <tr>
+            <td>toLocaleString()</td>
+            <td>Returns a string representation of the date and time in a form specific to the computers local</td>
+          </tr>
+         <tr>
+         
+          </tr>
+            </tbody>
+        </table>
+        
+        <p><b>Boolean and Number Objects</b> are objects wrappers for boolean true/false values and numbers respectively. If boolean Value is false, 0,null,Number.NAN ,the empty string("") or if no arguement is supplied, the boolean object contains <note>false</note>, otherwise it contains <note>true</note>. Below is a table showing some boolean methods.</p>
+        
+        <table border="1">
+        <thead><tr>
+            <th>Method</th>
+            <th>Description</th> 
+          </tr>
+        </thead>
+        <tbody><tr>
+            <td>toString()</td>
+            <td>returns the string "true" if the value of the boolean object is true; otherwise  returns "false"</td>
+          </tr>
+          <tr>
+            <td>valueOf()</td>
+            <td>Returns the value of the boolean object (true or false)</td>
+          </tr>
+            </tbody>
+        </table>
+        <p>JavaScript automatically creates Number objects to store numeric values in a script. A number object could be create with the statement below:</p>
+        <code> var n = new Number( numericValue); // where numbericValue is the number to store in the object</code>
+        <p> Just like the boolean Objects the number object also used the toString(radix) and valueOf() methods. Here toString returns a string representation of the number and the optional radix arguement specifies the number's base. Value of simple returns the numeric value</p>
+        
+        <p><b>document Object</b> is provided by the browser and allows JavaScript code to manipulate the current document in the browser. Here are some document object methods</p>
+        <table border="1">
+        <thead><tr>
+            <th>Method</th>
+            <th>Description</th> 
+          </tr>
+        </thead>
+        <tbody><tr>
+            <td>getElementById(id)</td>
+            <td>Returns the HTML5 element whose id attribute matches id</td>
+          </tr>
+          <tr>
+            <td>getElementByTagName</td>
+            <td>Returns an array of the HTML5 elements with the specified tagName</td>
+          </tr>
+            </tbody>
+        </table>
+        
+    </div>
+    <button class="quiz" onclick="window.location.href='quiz.html'"> GO TO QUIZ1</button>
+
+    
+    </body>
+    
+
+   
+
+
+      
+
+
+
+
+</html>

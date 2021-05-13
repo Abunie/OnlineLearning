@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<questions>
+  <question>
+    <ask>An xml _____________ is responsible for identifying components of XML documents and storing those components in a data structure</ask>
+    <choice>A: reader</choice>
+    <choice>B: parser </choice>
+    <choice>C: manipulator</choice>
+    <answer>B</answer>
+  </question>
+  <question>
+    <ask>XML stands for ___________</ask>
+    <choice>A: eXpressible Markup Language</choice>
+    <choice>B: eXtensible Markup Language</choice>
+    <choice>C: eXtensive Markup Language</choice>
+    <answer>B</answer>
+  </question>
+  <question>
+    <ask>Which of these is not a rule in XML</ask>
+    <choice>A: XML elements must be properly nested</choice>
+    <choice>B: All xml documents must have a prolog</choice>
+    <choice>C: All xml attributes values must be quoted </choice>
+    <answer>B</answer>
+  </question>
+  <question>
+    <ask> What is the main type of stylesheet used for xml?</ask>
+    <choice>A: css  </choice>
+    <choice>B: xsl </choice>
+    <choice>C: text </choice>
+    <answer>B</answer>
+  </question>
+  <question>
+    <ask>Which of these is the correct way to write a comment in xml</ask>
+    <choice>A:  &lt; !-- This -- is -- a -- comment --  &gt; </choice>
+    <choice>B: &lt; !-- This is a comment --&gt; </choice>
+    <choice>C:  &lt; !-- This is a comment &gt; </choice>
+    <answer>B</answer>
+  </question>
+    <question>
+    <ask>What makes ajax-enabled forms better than regular html forms</ask>
+    <choice>A:They are prettier</choice>
+    <choice>B: They accept more fields</choice>
+    <choice>C: They are more interactive.</choice>
+    <answer>C</answer>
+  </question>
+    <question>
+    <ask>What does the term AJAX stand for ? </ask>
+    <choice>A: Active JavaScript and XML </choice>
+    <choice>B: Anachronic JavaScript and XML</choice>
+    <choice>C: Asynchronous JavaScript and XML </choice>
+    <answer>C</answer>
+  </question>
+</questions>
+
+

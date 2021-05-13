@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> World of Web developers </title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../../shared/style.css">
+</head>
+<body>
+    <header>
+        <div class="topnav">
+  
+         <a href="../index.html"><img style="margin: 2px" alt="Logo" src="../../shared/img/mylogo.png" width="80" height="80" align="left"/></a>
+            <h1 style="align-self: center">World of Web Developers</h1>
+  <p>
+      <a class="menu" href="../Unit3/quiz.html">Quiz 3</a>
+      <a class="menu" href="../Unit3/unit3.html">Unit 3</a>
+      <a class="menu" href="../Unit2/quiz.html">Quiz 2</a>
+      <a class="menu" href="../Unit2/unit2.html">Unit 2</a>
+      <a class="menu" href="../Unit1/quiz.html">Quiz 1</a>
+      <a class="menu" href="../Unit1/unit1.html">Unit 1</a>
+ </p>
+</div>   
+    </header>
+    
+   <div><h3>Introduction</h3>
+       In this unit you would be learning the XML and AJAX.
+    <ol>
+        <li><a href="#xml">XML</a></li>
+        <li><a href="#ajax">AJAX</a></li>
+     </ol>
+    </div>
+    <br> 
+    <div>
+     <h3 id="xml"> XML</h3>
+        <p>XML stands for eXtensible Markup Language. XML is a portable, widely supported open technology for data storage and exchange. It permits document authors to create markup fot virtually any type of information.It  described daata in a way that human beings can understand and computers can process. An xml parser is responsible for identifying components in data structure for manipulation. Unlike html, xml does not have predefined tags so the author most define both the tags and the structure </p>
+        <h5>Tree Structure</h5>
+        <p>XML documents are formed as element trees. The tree starts from the root element and branches to the children. The terms used  to discribe this relationship are parent, child , siblings. Below I have shown an example of an xml structure.</p>
+        <pre style="background-color: black; color: aliceblue">
+        &lt;root&gt;<br>
+            &lt;child&gt;<br>
+                &lt;subchild&gt;......&lt;/subchild&gt;<br>
+            &lt;/&gt;child<br>
+         &lt;/root&gt;<br>
+        </pre>
+     <h5>Some Important XML Rules</h5>
+        <ul>
+        <li>XML documents must contain one general root element that is the parent of all other elements</li>
+        <li>The XML prolog: <note>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</note> is optional but if it must appear then it must be on the first line of the document  </li>
+        <li>All XML elements must have a starting and closing tag</li>
+        <li>XML tags are case-sensitive.</li>
+        <li>XML elements must be properly nested</li>
+        <li>XML attribute values must always be quoted</li>
+        <li>Two dashes in the middle of a comment are not allowed e.g &lt; !-- This is an invalid -- comment --&lt;/subchild&gt;</li></ul>
+        <br>
+        <p> An XML element is everything from the elements start tag to the end tag i.e &lt;element&gt;text&lt;/element&gt;. It can contain, text, attributes, other elements or a mix of any of them. Here is a picture showing you an xml document with a good format :</p>
+        <img src="../../shared/img/xml.png" alt="XML code"  width="80%"  style="padding-left: 20px">    
+
+        
+    </div>
+    
+    
+    <br>
+    
+    <div>
+        <h3 id="ajax">AJAX</h3>
+        <p>AJAX stands for Asynchronous JavaScript and XML. AJAX applications seperate client-side user interaction and server communication, and run them in parrallel, making the server communication and the run them in parrallel, making delays of server side processing more transparent to the user. A classic HTML registration form sends all of the data to be validated to the server when the user clicks the register button but Ajax-enabled forms are more interactive entries are validated individually, dynamically as the user enters data into the fields.  </p>
+        
+       
+    </div>
+   
+    
+    <button class="quiz" onclick="window.location.href='quiz.html'"> GO TO QUIZ1</button>
+
+    
+    </body>
+    
+
+   
+
+
+      
+
+
+
+
+</html>

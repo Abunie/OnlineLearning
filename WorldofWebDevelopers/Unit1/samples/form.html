@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h4>Signup form</h4>
+        <form method ="post" action="#">
+            <p><label>Name</label><input name="name" id="name" type="text" size="30" maxlength="35"></p>
+            <p><label>Password</label><input name="password" id="password"  type="password" ></p>
+            <p><label>email</label><input name="email"  id="email" type="email" ></p>
+            <p><label>favourite color</label><input name="color"  id="color" type="color" autofocus/></p>
+            <p><label>bio<br></label><textarea name="bio" rows="14" cols="36">Write about yourself</textarea></p>
+            <p>Interests<br> 
+            <label>Skating <input name="interests" type="checkbox" value ="skating"></label>
+            <label>Dancing <input name="interests" type="checkbox" value ="dancing"></label>
+            <label>Singing <input name="interests" type="checkbox" value ="singing"></label>
+            <label>Basketball <input name="interests" type="checkbox" value ="bball"></label>
+            </p>
+            <p>Favourite thing to eat<br>
+            <label>Fruits <input name="food" type="radio" value ="fruits"></label>
+            <label>Pastry <input name="food" type="radio" value ="pastry"></label>
+            <label>Cooked Food <input name="food" type="radio" value ="cooked"></label>
+            <label>Meat<input name="food" type="radio" value ="meat"></label>
+</p>
+        <p><label> Age</label><br>
+            <input type="number" min="0" max="150"/></p>
+        <p><label>Birthday</label><br>
+            <input type="date" value="date"></p>
+            
+            <p><input type = "submit" value="submit">
+      
+            </p>
+    
+</form>
+    </body>
+</html>

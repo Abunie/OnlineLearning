@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<questions>
+  <question>
+    <ask>The _______________ tag indicates to the browser that the text which follows is in JavaScript.</ask>
+    <choice>A: js</choice>
+    <choice>B: javascript </choice>
+    <choice>C: script</choice>
+    <answer>C</answer>
+  </question>
+  <question>
+    <ask>Which of these ways is not the right way to write an alert in javascript ?</ask>
+    <choice>A: alert("Hello World")</choice>
+    <choice>B: window.alert("Be careful !")</choice>
+    <choice>C: window.error("404")</choice>
+    <answer>C</answer>
+  </question>
+  <question>
+    <ask>A variable in JavaScript cannot begin with a ____________</ask>
+    <choice>A: digit</choice>
+    <choice>B: underscore</choice>
+    <choice>C: dollarsign</choice>
+    <answer>A</answer>
+  </question>
+  <question>
+    <ask>Which of the following reserved words have been removed from the ECMAScript 5/6 standard ?</ask>
+    <choice>A: while</choice>
+    <choice>B: boolean</choice>
+    <choice>C: try</choice>
+    <answer>B</answer>
+  </question>
+  <question>
+    <ask>What does the javascript in-built function Number() do?</ask>
+    <choice>A: Parses a string and returns an interger</choice>
+    <choice>B: Parses a string and returns a floating point number</choice>
+    <choice>C: Converts an object's value to a number</choice>
+    <answer>C</answer>
+  </question>
+ <question>
+    <ask>var prepositions = ["above", "but", "come", "down", "except", "from", "into", "like", "near", "on"].  What is preposition[5] ?</ask>
+    <choice>A: "except"</choice>
+    <choice>B: "from"</choice>
+    <choice>C: "into"</choice>
+    <answer>B</answer>
+  </question>
+ <question>
+    <ask>Which of the following functions rounds x to the largest interger not greater than x?</ask>
+    <choice>A: ceil(x)</choice>
+    <choice>B: round(x)</choice>
+    <choice>C: floor(x)</choice>
+    <answer>C</answer>
+  </question>
+   <question>
+    <ask>Which of these functions splits the source string into an array of strings ?</ask>
+    <choice>A: split(string)</choice>
+    <choice>B: slice(start, end)</choice>
+    <choice>C: substring(start, end)</choice>
+    <answer>A</answer>
+  </question>
+    <question>
+    <ask>Which of these functions would be able to produce the output 28 ?</ask>
+    <choice>A: getMonth()</choice>
+    <choice>B: getDay()</choice>
+    <choice>C: getDate() </choice>
+    <answer>C</answer>
+  </question>
+    <question>
+    <ask>Which of these is not a representation of boolean false ? </ask>
+    <choice>A: "false"</choice>
+    <choice>B: false</choice>
+    <choice>C: ""</choice>
+    <answer>A</answer>
+  </question>
+</questions>
+
+

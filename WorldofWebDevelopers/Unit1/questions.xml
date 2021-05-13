@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<questions>
+  <question>
+    <ask>"Every year or two the capacity of a commputers have doubled". Who was the first person to publicly state this fact ?</ask>
+    <choice>A: Gordon Moore</choice>
+    <choice>B: Gordon Borris</choice>
+    <choice>C: Borris Moore</choice>
+    <answer>A</answer>
+  </question>
+  <question>
+    <ask>The set of rules for the internet and APRANET is called ? </ask>
+    <choice>A: RLL</choice>
+    <choice>B: TCP/IP</choice>
+    <choice>C: TMR/IP</choice>
+    <answer>B</answer>
+  </question>
+  <question>
+    <ask>TLS stands for ?</ask>
+    <choice>A: Telecommunication Layer Security</choice>
+    <choice>B: Transmission Layer Security</choice>
+    <choice>C: Transport Layer Security</choice>
+    <answer>B</answer>
+  </question>
+  <question>
+    <ask>Which of the following is not a HTTP request method ?</ask>
+    <choice>A: PATCH</choice>
+    <choice>B: REMOVE</choice>
+    <choice>C: POST</choice>
+    <answer>B</answer>
+  </question>
+  <question>
+    <ask>Which of these is the best way to put a link to another webpage on a page ?</ask>
+    <choice>A: &#60; link &#62; &quot; url &quot;  &#60; / link  &#62;</choice>
+    <choice>B: &#60; link  src= &quot; url &quot; &#62; link text   &#60; / link  &#62;</choice>
+    <choice>C: &#60; a  href= &quot; url &quot; &#62; link text   &#60; / a  &#62;</choice>
+    <answer>C</answer>
+  </question>
+ <question>
+    <ask>To use an image as a link, put the ___________ tag inside the ____________ tag ?</ask>
+    <choice>A: &#60; img &#62; ,  &#60; href &#62;</choice>
+    <choice>B: &#60; img &#62; ,   &#60; a  &#62;</choice>
+    <choice>C: &#60; a   &#62; ,   &#60; img &#62;</choice>
+    <answer>B</answer>
+  </question>
+ <question>
+    <ask>There are two type of lists in html5, what are they ?</ask>
+    <choice>A: ordered and unordered</choice>
+    <choice>B: numbered and unnumbered</choice>
+    <choice>C: simple and complex</choice>
+    <answer>A</answer>
+  </question>
+   <question>
+    <ask>In CSS, background attachment __________________</ask>
+    <choice>A: Specifies an image to use as the background of an element</choice>
+    <choice>B: Specifies whether the background image should scroll or be fixed</choice>
+    <choice>C: Specifies the starting point of the background image</choice>
+    <answer>B</answer>
+  </question>
+    <question>
+    <ask>What is the hex code for black</ask>
+    <choice>A: #000000</choice>
+    <choice>B: #ffffff</choice>
+    <choice>C:rgb(f,f,f) </choice>
+    <answer>A</answer>
+  </question>
+    <question>
+    <ask>What does the hr tag stand for ? </ask>
+    <choice>A: horizontal ruler</choice>
+    <choice>B: horizontal rule</choice>
+    <choice>C: heights ruler</choice>
+    <answer>B</answer>
+  </question>
+</questions>
+
+

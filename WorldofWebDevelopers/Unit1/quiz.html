@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> World of Web developers </title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../../shared/style.css">
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="topnav">
+  
+          <a href="../index.html"><img style="margin: 2px" alt="Logo" src="../../shared/img/mylogo.png" width="80" height="80" align="left"/></a>
+            <h1 style="align-self: center">World of Web Developers</h1>
+  <p>
+      <a class="menu" href="../Unit3/quiz.html">Quiz 3</a>
+      <a class="menu" href="../Unit3/unit3.html">Unit 3</a>
+      <a class="menu" href="../Unit2/quiz.html">Quiz 2</a>
+      <a class="menu" href="../Unit2/unit2.html">Unit 2</a>
+      <a class="menu" href="quiz.html">Quiz 1</a>
+      <a class="menu" href="unit1.html">Unit 1</a>
+ </p>
+</div>   
+    </header>
+   
+     <hr>
+    
+
+      <div id="quiz" class="row">
+        <form id="quizform">
+        </form>
+        
+      </div>
+      <div id="grade" class="row"> </div>
+      <div id="submission">
+        <button id="submit">Submit Quiz</button>  
+     </div>
+     <div id="redirect" style="display: none">
+        <form action="../Unit1/quiz.html">
+            <input type="submit" value="Retake Quiz 1" />
+        </form>     
+    </div>
+      <div id="results" class="row"></div> 
+    </body>   
+    <script src="../js/quiz.js"></script>
+    <script>buildQuiz();</script>
+</html>
